@@ -1,0 +1,18 @@
+[Sfr]
+sfr = "DMA_CNDTR6",	"Memory",	0x40020070,	4,	base=16,	modified
+sfr = "RTC_CNTH",	"Memory",	0x40002818,	2,	base=16,	modified
+sfr = "BKP_DR8",	"Memory",	0x40006c20,	2,	base=16,	modified
+sfr = "CAN_TDL0R",	"Memory",	0x40006588,	4,	base=16,	modified
+sfr = "CAN_F8R1",	"Memory",	0x40006680,	4,	base=16,	modified
+sfr = "CAN_F8R2",	"Memory",	0x40006684,	4,	base=16,	modified
+sfr = "SPI1_CRCPR",	"Memory",	0x40013010,	4,	base=16,	modified
+sfr = "USART3_CR3",	"Memory",	0x40004814,	4,	base=16,	modified
+sfr = "USB_EP0R",	"Memory",	0x40005c00,	4,	base=16,	modified
+sfr = "USB_EP4R",	"Memory",	0x40005c10,	4,	base=16,	modified
+sfr = "ADC1_LTR",	"Memory",	0x40012428,	4,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "DMA_CNDTR6", "RTC_CNTH"
+group = "Custom", "BKP_DR8", "CAN_TDL0R"
+group = "Custom", "CAN_F8R1", "CAN_F8R2", "SPI1_CRCPR", "USART3_CR3", "USB_EP0R", "USB_EP4R", "ADC1_LTR"
