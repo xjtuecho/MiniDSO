@@ -1,2 +1,2 @@
 # MiniDSO
-Product literature of MiniDSO.
+Product firmware and document of MiniDSO.
