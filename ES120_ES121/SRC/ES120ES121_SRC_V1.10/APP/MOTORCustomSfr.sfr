@@ -1,0 +1,32 @@
+[Sfr]
+sfr = "NVIC",	"Memory",	0xe000e004,	4,	base=16,	modified
+sfr = "SYSTICKRVR",	"Memory",	0xe000e014,	4,	base=16,	modified
+sfr = "SYSTICKCVR",	"Memory",	0xe000e018,	4,	base=16,	modified
+sfr = "SYSTICKCALVR",	"Memory",	0xe000e01c,	4,	base=16,	modified
+sfr = "SETENA0",	"Memory",	0xe000e100,	4,	base=16,	modified
+sfr = "SETENA1",	"Memory",	0xe000e104,	4,	base=16,	modified
+sfr = "CLRENA0",	"Memory",	0xe000e180,	4,	base=16,	modified
+sfr = "CLRENA1",	"Memory",	0xe000e184,	4,	base=16,	modified
+sfr = "SETPEND0",	"Memory",	0xe000e200,	4,	base=16,	modified
+sfr = "SETPEND1",	"Memory",	0xe000e204,	4,	base=16,	modified
+sfr = "CLRPEND0",	"Memory",	0xe000e280,	4,	base=16,	modified
+sfr = "CLRPEND1",	"Memory",	0xe000e284,	4,	base=16,	modified
+sfr = "ACTIVE0",	"Memory",	0xe000e300,	4,	base=16,	modified
+sfr = "ACTIVE1",	"Memory",	0xe000e304,	4,	base=16,	modified
+sfr = "IP0",	"Memory",	0xe000e400,	4,	base=16,	modified
+sfr = "IP1",	"Memory",	0xe000e404,	4,	base=16,	modified
+sfr = "IP2",	"Memory",	0xe000e408,	4,	base=16,	modified
+sfr = "RCC_APB1RSTR",	"Memory",	0x40021010,	4,	base=16,	modified
+sfr = "RCC_AHBENR",	"Memory",	0x40021014,	4,	base=16,	modified
+sfr = "RCC_APB2ENR",	"Memory",	0x40021018,	4,	base=16,	modified
+sfr = "RCC_APB1ENR",	"Memory",	0x4002101c,	4,	base=16,	modified
+sfr = "GPIOD_ODR",	"Memory",	0x4001140c,	4,	base=16,	modified
+sfr = "ADC1_JOFR4",	"Memory",	0x40012420,	4,	base=16,	modified
+sfr = "FLASH_SR",	"Memory",	0x4002200c,	4,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "NVIC", "SYSTICKRVR", "SYSTICKCVR", "SYSTICKCALVR", "SETENA0"
+group = "Custom", "SETENA1", "CLRENA0", "CLRENA1", "SETPEND0", "SETPEND1", "CLRPEND0"
+group = "Custom", "CLRPEND1", "ACTIVE0", "ACTIVE1", "IP0", "IP1", "IP2", "RCC_APB1RSTR", "RCC_AHBENR", "RCC_APB2ENR", "RCC_APB1ENR", "GPIOD_ODR", "ADC1_JOFR4"
+group = "Custom", "FLASH_SR"
