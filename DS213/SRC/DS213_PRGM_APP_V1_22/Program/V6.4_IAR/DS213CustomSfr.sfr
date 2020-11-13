@@ -1,0 +1,7 @@
+[Sfr]
+sfr = "PWR_CSR.WUF",	"Memory",	0x40007004,	4,	base=16,	modified
+sfr = "CAN_F1R1.FB29",	"Memory",	0x40006648,	4,	base=16,	modified
+sfr = "CAN_F1R1.FB31",	"Memory",	0x40006648,	4,	base=16,	modified
+
+
+[SfrGroupInfo]
